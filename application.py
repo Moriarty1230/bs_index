@@ -18,6 +18,18 @@ def devOps():
 def bigDataAndAI():
     return render_template('bigDataAndAI.html')
 
+@application.route('/BigDataList.html')
+def BigDataList():
+    return render_template('BigDataList.html')
+
+@application.route('/jm.html')
+def jm():
+    return render_template('jm.html')
+
+@application.route('/bmkp.html')
+def bmkp():
+    return render_template('bmkp.html')
+
 @application.route('/demoList.html')
 def demoList():
     return render_template('demoList.html')
@@ -42,6 +54,62 @@ def newList():
 def tsl():
     return render_template('tsl.html')
 
+@application.route('/Migration.html')
+def Migration():
+    return render_template('Migration.html')
+
+@application.route('/MigrationList.html')
+def MigrationList():
+    return render_template('MigrationList.html')
+
+@application.route('/gb.html')
+def gb():
+    return render_template('gb.html')
+
+@application.route('/xc.html')
+def xc():
+    return render_template('xc.html')
+
+@application.route('/msp.html')
+def msp():
+    return render_template('msp.html')
+
+@application.route('/qx.html')
+def qx():
+    return render_template('qx.html')
+
+@application.route('/hf.html')
+def hf():
+    return render_template('hf.html')
+
+@application.route('/MspList.html')
+def MspList():
+    return render_template('MspList.html')
+
+
+@application.route('/product.html')
+def product():
+    return render_template('product.html')
+
+@application.route('/followme.html')
+def followme():
+    return render_template('followme.html')
+
+@application.route('/TCL.html')
+def TCL():
+    return render_template('TCL.html')
+
+@application.route('/ZTE.html')
+def ZTE():
+    return render_template('ZTE.html')
+
+@application.route('/gmjs.html')
+def gmjs():
+    return render_template('gmjs.html')
+
+@application.route('/meross.html')
+def meross():
+    return render_template('meross.html')
 
 if __name__ == "__main__":
     application.debug = True

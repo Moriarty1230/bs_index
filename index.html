@@ -3,26 +3,26 @@
 
 <head>
 	<title>BosiCloud - 云成本优化管理平台</title>
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="./favicon.ico">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Fonts-->
-	<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
+	<link rel="stylesheet" type="text/css" href="../assets/fonts/fontawesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/fonts/pe-icon/pe-icon.css">
 	<!-- Vendors-->
-	<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
+	<link rel="stylesheet" type="text/css" href="../assets/vendors/bootstrap/grid.css">
+	<link rel="stylesheet" type="text/css" href="../assets/vendors/magnific-popup/magnific-popup.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/vendors/swiper/swiper.css">
 	<!-- App & fonts-->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/main.css">
 	<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
-	<link rel="stylesheet" type='text/css' href="assets/css/sub.css">
+	<link rel="stylesheet" type='text/css' href="../assets/css/sub.css">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
 		<header class="header header--fixed">
 			<div class="container">
 				<div class="header__inner">
-					<div class="header__logo"><a href="index.html"><img src="assets/img/logo.png" alt="" /></a></div>
+					<div class="header__logo"><a href="index.html"><img src="../assets/img/logo.png" alt="" /></a></div>
 					<div class="header__menu">
 
 						<!-- onepage-nav -->
@@ -43,42 +43,48 @@
 								<li class="current-menu-item"><a href="./index.html">首页</a>
 								</li>
 								<li><a onclick="clickScrollView('#id-2')">关于我们</a>
+									<ul class="sub-menu">
+										<li><a href="./product.html">产品设备</a>
+										</li>
+									</ul>
+								</li>
 								</li>
 								<li><a onclick="clickScrollView('#id-3')">能力认证</a>
 								</li>
 
 								<li><a onclick="clickScrollView('#id-4')">解决方案</a>
 									<ul class="sub-menu">
-										<li><a href="./devOps.html">运维托管解决方案</a>
+										<li><a href="./devOps.html">DevOps</a>
 										</li>
-										<li><a href="./logAndScheme.html">日志管理与集成解决方案</a>
+										<li><a href="./bigDataAndAI.html">BigData</a>
 										</li>
-										<li><a href="./bigDataAndAI.html">大数据与AI</a>
+										<li><a href="./Migration.html">Migration</a>
 										</li>
-										<li><a href="./DevOpsList.html">更多</a>
+										<li><a href="./msp.html">MSP</a>
 										</li>
+										<li><a href="./logAndScheme.html">日志管理与集成</a>
+										</li>
+<!-- 										<li><a href="./DevOpsList.html">更多</a>
+										</li> -->
 									</ul>
-
 								</li>
 
 
 								<li><a onclick="clickScrollView('#id-5')">客户案例</a>
 
 									<ul class="sub-menu">
-										<li><a href="./tsl.html">谢瑞麟电商平台</a>
+										<li><a href="./DevOpsList.html">DevOps</a>
 										</li>
-										<li><a href="./glanz.html">格兰仕电商平台</a>
+										<li><a href="./BigDataList.html">BigData</a>
 										</li>
-										<li><a href="#">中兴RCS咨询与迁移</a>
+										<li><a href="./MigrationList.html">Migration</a>
 										</li>
-										<li><a href="./demoList.html">更多</a>
+										<li><a href="./MspList.html">云托管</a>
 										</li>
 									</ul>
 
 								</li>
-								<li><a onclick="clickScrollView('#id-6')">新闻资讯</a>
-								</li>
-								<li><a onclick="clickScrollView('#id-7')">联系我们</a>
+								<li><a onclick="clickScrollView('#id-6')">联系我们</a>
 								</li>
 							</ul><!-- onepage-menu -->
 
@@ -94,7 +100,7 @@
 		<div class="md-content">
 
 			<!-- hero -->
-			<div class="hero" id="id-1" style="background-image: url('assets/img/bg/background.jpg');">
+			<div class="hero" id="id-1" style="background-image: url('../assets/img/bg/background.jpg');">
 				<div class="hero__wrapper">
 					<div class="container">
 						<div class="row">
@@ -103,15 +109,15 @@
 
 									<!-- typing__module -->
 									<div class="typing__module" data-options='{"typeSpeed":120}'>
-										<div class="typed-strings"><span>大数据</span><span><a
-													href="./DevOps.html">DevOps</a></span>
-											<span>msp</span>
+										<div class="typed-strings"><span>BigData</span><span><a
+													href="./devOps.html">DevOps</a></span>
+											<span>msp</span><span>Migration</span>>
 										</div><span class="typed"></span>
 									</div><!-- End / typing__module -->
 
 								</h1>
 								<p class="hero__text">
-									博思云为科技有限公司是一家云计算专业服务企业，专为客户提供AWS公有云方面的咨询、分析、设计、迁移及运维服务。目前团队中有多人取得AWS的高级认证，同时具有传统IT厂商的认证（VCP/OCP/RHCE）。
+									深圳市博思云为科技有限公司是一家云计算专业服务企业，专为客户提供亚马逊云科技公有云方面的咨询、分析、设计、迁移及运维服务。目前团队中有多人取得亚马逊云科技的高级认证，同时具有传统IT厂商的认证（VCP/OCP/RHCE）。
 								</p>
 							</div>
 						</div><span id="back-to-down"><i class="pe-7s-angle-down"></i></span>
@@ -134,11 +140,11 @@
 									data-options='{"slidesPerView":1,"spaceBetween":0}'>
 									<div class="swiper-wrapper">
 										<div class="slide-item"
-											style="background-image: url('assets/img/about/1.jpg');"></div>
+											style="background-image: url('../assets/img/about/1.jpg');"></div>
 										<div class="slide-item"
-											style="background-image: url('assets/img/about/2.jpg');"></div>
+											style="background-image: url('../assets/img/about/2.jpg');"></div>
 										<div class="slide-item"
-											style="background-image: url('assets/img/about/3.jpg');"></div>
+											style="background-image: url('../assets/img/about/3.jpg');"></div>
 									</div>
 									<div class="swiper-pagination-custom"></div>
 								</div><!-- End / swiper__module swiper-container -->
@@ -149,11 +155,11 @@
 									data-options='{"slidesPerView":1,"spaceBetween":0,"delay":10000}'>
 									<div class="swiper-wrapper">
 										<div class="slide-item"
-											style="background-image: url('assets/img/about/1b.jpg');"></div>
+											style="background-image: url('../assets/img/about/1b.jpg');"></div>
 										<div class="slide-item"
-											style="background-image: url('assets/img/about/2b.jpg');"></div>
+											style="background-image: url('../assets/img/about/2b.jpg');"></div>
 										<div class="slide-item"
-											style="background-image: url('assets/img/about/3b.jpg');"></div>
+											style="background-image: url('../assets/img/about/3b.jpg');"></div>
 									</div>
 								</div><!-- End / swiper-thumbnails__module swiper-container -->
 
@@ -168,10 +174,10 @@
 							</div><!-- End / title -->
 
 							<p class="fz-16 " style="text-indent:2em;">
-								博思云为科技有限公司是一家云服务型企业，总部位于深圳，并在苏州、广州、杭州及北京等地设有分公司。专为客户提供上云的咨询、设计、迁移、运维以及运营的云服务：其中包括上云的咨询设计、数据迁移、运维托管、大数据与AI平台、混合云管理、安全以及集成服务等。
+								深圳市博思云为科技有限公司是一家云服务型企业，总部位于深圳，并在苏州、广州、杭州及北京等地设有分公司。专为客户提供上云的咨询、设计、迁移、运维以及运营的云服务：其中包括上云的咨询设计、数据迁移、运维托管、大数据与AI平台、混合云管理、安全以及集成服务等。
 							</p>
 							<p class="fz-16 " style="text-indent:2em;">
-								现有的专家团队中包括：大数据、AI（人工智能）、运维研发、数据库、日志分析，业务架构设计等厂商认证级核心专家成员。且团队中多数取得AWS的高级认证，以及传统IT厂商的认证（VCP/OCP/RHCE），大部分人员都是在IT行业服务十年以上的专家。主要合作对象包括：AWS、Splunk、dynatrace、红帽、Vmware等。重点提供AWS云的集成服务，博思借助总公司（汇通合力）数十年的IT集成经验，可以为很多企业提供与AWS集成的解决方案，例如：AI平台解决方案、大数据解决方案、Splunk日志分析解决方案、Vmware与AWS的混合云解决方案、数据迁移服务解决方案等。
+								现有的专家团队中包括：大数据、AI（人工智能）、运维研发、数据库、日志分析，业务架构设计等厂商认证级核心专家成员。且团队中多数取得亚马逊云科技的高级认证，以及传统IT厂商的认证（VCP/OCP/RHCE），大部分人员都是在IT行业服务十年以上的专家。主要合作对象包括：亚马逊云科技、Splunk、dynatrace、红帽、Vmware等。重点提供亚马逊云科技的集成服务，博思借助总公司（汇通合力）数十年的IT集成经验，可以为很多企业提供与亚马逊云科技集成的解决方案，例如：AI平台解决方案、大数据解决方案、Splunk日志分析解决方案、Vmware与亚马逊云科技的混合云解决方案、数据迁移服务解决方案等。
 							</p>
 
 
@@ -202,14 +208,6 @@
 					<div class="grid-css grid-css--grid" data-col-lg="3" data-col-md="2" data-col-sm="2" data-col-xs="1"
 						data-gap="30">
 
-						<div class="filter">
-							<ul class="filter__list">
-								<!-- <li><a href="#" data-filter="*">其它</a></li> -->
-								<li><a href="#" data-filter=".cat4">个人证书</a></li>
-								<li><a href="#" data-filter=".cat1">公司资质</a></li>
-							</ul>
-						</div>
-
 						<div class="grid__inner">
 							<div class="grid-sizer"></div>
 
@@ -218,11 +216,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/BigData-ZhenDa.png"><a
-												class="portfolio__bg" href="assets/img/portfolio/BigData-ZhenDa.png"
-												style="background-image: url('assets/img/portfolio/BigData-ZhenDa.png');"
+										<div class="portfolio" href="../assets/img/portfolio/BigData-ZhenDa.png"><a
+												class="portfolio__bg" href="../assets/img/portfolio/BigData-ZhenDa.png"
+												style="background-image: url('../assets/img/portfolio/BigData-ZhenDa.png');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/BigData-ZhenDa.png" /></a>
+													src="../assets/img/portfolio/BigData-ZhenDa.png" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -235,11 +233,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/BigData-JiaChen.png"><a
-												class="portfolio__bg" href="assets/img/portfolio/BigData-JiaChen.png"
-												style="background-image: url('assets/img/portfolio/BigData-JiaChen.png');"
+										<div class="portfolio" href="../assets/img/portfolio/BigData-JiaChen.png"><a
+												class="portfolio__bg" href="../assets/img/portfolio/BigData-JiaChen.png"
+												style="background-image: url('../assets/img/portfolio/BigData-JiaChen.png');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/BigData-JiaChen.png" /></a>
+													src="../assets/img/portfolio/BigData-JiaChen.png" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -252,12 +250,12 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/MachineLearning-ZhenDa.png"><a
+										<div class="portfolio" href="../assets/img/portfolio/MachineLearning-ZhenDa.png"><a
 												class="portfolio__bg"
-												href="assets/img/portfolio/MachineLearning-ZhenDa.png"
-												style="background-image: url('assets/img/portfolio/MachineLearning-ZhenDa.png')"
+												href="../assets/img/portfolio/MachineLearning-ZhenDa.png"
+												style="background-image: url('../assets/img/portfolio/MachineLearning-ZhenDa.png')"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/MachineLearning-ZhenDa.png" /></a>
+													src="../assets/img/portfolio/MachineLearning-ZhenDa.png" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -270,11 +268,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/DevOps-HongHui.png"><a
-												class="portfolio__bg" href="assets/img/portfolio/DevOps-HongHui.png"
-												style="background-image: url('assets/img/portfolio/DevOps-HongHui.png')"
+										<div class="portfolio" href="../assets/img/portfolio/DevOps-HongHui.png"><a
+												class="portfolio__bg" href="../assets/img/portfolio/DevOps-HongHui.png"
+												style="background-image: url('../assets/img/portfolio/DevOps-HongHui.png')"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/DevOps-HongHui.png" /></a>
+													src="../assets/img/portfolio/DevOps-HongHui.png" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -287,11 +285,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/SAP-YaWen.png"><a
-												class="portfolio__bg" href="assets/img/portfolio/SAP-YaWen.png"
-												style="background-image: url('assets/img/portfolio/SAP-YaWen.png');"
+										<div class="portfolio" href="../assets/img/portfolio/SAP-YaWen.png"><a
+												class="portfolio__bg" href="../assets/img/portfolio/SAP-YaWen.png"
+												style="background-image: url('../assets/img/portfolio/SAP-YaWen.png');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/SAP-YaWen.png" /></a>
+													src="../assets/img/portfolio/SAP-YaWen.png" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -304,11 +302,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/SAP-YiTing.png"><a
-												class="portfolio__bg" href="assets/img/portfolio/SAP-YiTing.png"
-												style="background-image: url('assets/img/portfolio/SAP-YiTing.png');"
+										<div class="portfolio" href="../assets/img/portfolio/SAP-YiTing.png"><a
+												class="portfolio__bg" href="../assets/img/portfolio/SAP-YiTing.png"
+												style="background-image: url('../assets/img/portfolio/SAP-YiTing.png');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/SAP-YiTing.png" /></a>
+													src="../assets/img/portfolio/SAP-YiTing.png" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -321,11 +319,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/Partner-Solution.jpg"><a
-												class="portfolio__bg" href="assets/img/portfolio/Partner-Solution.jpg"
-												style="background-image: url('assets/img/portfolio/Partner-Solution.jpg');"
+										<div class="portfolio" href="../assets/img/portfolio/Partner-Solution.jpg"><a
+												class="portfolio__bg" href="../assets/img/portfolio/Partner-Solution.jpg"
+												style="background-image: url('../assets/img/portfolio/Partner-Solution.jpg');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/Partner-Solution.jpg" /></a>
+													src="../assets/img/portfolio/Partner-Solution.jpg" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -338,11 +336,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/Partner-Channel.jpg"><a
-												class="portfolio__bg" href="assets/img/portfolio/Partner-Channel.jpg"
-												style="background-image: url('assets/img/portfolio/Partner-Channel.jpg');"
+										<div class="portfolio" href="../assets/img/portfolio/Partner-Channel.jpg"><a
+												class="portfolio__bg" href="../assets/img/portfolio/Partner-Channel.jpg"
+												style="background-image: url('../assets/img/portfolio/Partner-Channel.jpg');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/Partner-Channel.jpg" /></a>
+													src="../assets/img/portfolio/Partner-Channel.jpg" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -355,11 +353,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/Partner-Data.jpg"><a
-												class="portfolio__bg" href="assets/img/portfolio/Partner-Data.jpg"
-												style="background-image: url('assets/img/portfolio/Partner-Data.jpg');"
+										<div class="portfolio" href="../assets/img/portfolio/Partner-Data.jpg"><a
+												class="portfolio__bg" href="../assets/img/portfolio/Partner-Data.jpg"
+												style="background-image: url('../assets/img/portfolio/Partner-Data.jpg');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/Partner-Data.jpg" /></a>
+													src="../assets/img/portfolio/Partner-Data.jpg" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -372,11 +370,11 @@
 									<div class="grid-item__content-wrapper">
 
 										<!-- portfolio -->
-										<div class="portfolio" href="assets/img/portfolio/Partner-Oracle.jpg"><a
-												class="portfolio__bg" href="assets/img/portfolio/Partner-Oracle.jpg"
-												style="background-image: url('assets/img/portfolio/Partner-Oracle.jpg');"
+										<div class="portfolio" href="../assets/img/portfolio/Partner-Oracle.jpg"><a
+												class="portfolio__bg" href="../assets/img/portfolio/Partner-Oracle.jpg"
+												style="background-image: url('../assets/img/portfolio/Partner-Oracle.jpg');"
 												data-effect="mfp-zoom-in"><img
-													src="assets/img/portfolio/Partner-Oracle.jpg" /></a>
+													src="../assets/img/portfolio/Partner-Oracle.jpg" /></a>
 										</div>
 										<!-- End / portfolio -->
 
@@ -408,7 +406,7 @@
 							<!--  -->
 							<div class='index__item'>
 								<div class="post__media solution_img"><a href=""><img
-											src="assets/img/blog/Operation.png" alt="" /></a></div>
+											src="../assets/img/blog/Operation.png" alt="" /></a></div>
 								<div class="post__body">
 									<h2 class="post__title solution_title"><a href="#">运维托管解决方案</a></h2>
 									<div class="post__meta"><span class="author solution_author"><a href="#">ChaoJie
@@ -423,14 +421,14 @@
 
 							<!--  -->
 							<div class='index__item'>
-								<div class="post__media solution_img"><a href="#"><img src="assets/img/blog/Log.jpg"
+								<div class="post__media solution_img"><a href="#"><img src="../assets/img/blog/Log.jpg"
 											alt="" /></a></div>
 								<div class="post__body">
 									<h2 class="post__title solution_title"><a href="#">日志管理与集成解决方案</a></h2>
 									<div class="post__meta"><span class="author solution_author"><a href="#">Jun
 												Li</a></span><span class="date">Web 15, 2018</span></div>
 									<p class="post__text">
-										基于流行的ELK（Elasticsearch，Logstash，Kibana）系统改造成为更加精简的托管式的适应于AWS的EKK解决方案（Elasticsearch
+										基于流行的ELK（Elasticsearch，Logstash，Kibana）系统改造成为更加精简的托管式的适应于亚马逊云科技的EKK解决方案（Elasticsearch
 										Service，Kinesis，Kibana）。</p>
 								</div>
 							</div><!-- End /  -->
@@ -440,13 +438,13 @@
 
 							<!--  -->
 							<div class='index__item'>
-								<div class="post__media solution_img"><a href="#"><img src="assets/img/blog/BigData.jpg"
+								<div class="post__media solution_img"><a href="#"><img src="../assets/img/blog/BigData.jpg"
 											alt="" /></a></div>
 								<div class="post__body">
 									<h2 class="post__title solution_title"><a href="#">大数据与AI解决方案</a></h2>
 									<div class="post__meta"><span class="author solution_author"><a href="#">JiaChen
 												Feng</a></span><span class="date">Mar 20, 2017</span></div>
-									<p class="post__text">在AWS上构建完整的大数据分析体系，可以采用HIVE+Spark+HDFS的架构使用EC2自建或采用由AWS提供的
+									<p class="post__text">在亚马逊云科技上构建完整的大数据分析体系，可以采用HIVE+Spark+HDFS的架构使用EC2自建或采用由亚马逊云科技提供的
 										EMR+S3+RedShift架构来完成大数据分析的目标。</p>
 								</div>
 							</div><!-- End /  -->
@@ -474,14 +472,14 @@
 
 							<!--  -->
 							<div class='index__item'>
-								<div class="post__media customer_img"><a href="#"><img src="assets/img/blog/tsl.jpg"
+								<div class="post__media customer_img"><a href="#"><img src="../assets/img/blog/tsl.png"
 											alt="" /></a></div>
 								<div class="post__body">
-									<h2 class="post__title customer_title"><a href="#">TSL电商平台</a></h2>
+									<h2 class="post__title customer_title"><a href="#">谢瑞麟电商平台</a></h2>
 									<div class="post__meta"><span class="author customer_author"><a href="#">JianChun
 												Dong</a></span><span class="date">Spet 6, 2018</span></div>
 									<p class="post__text">
-										谢瑞麟珠宝（国际）有限公司成立于1971年，经营零售业务、批发业务和其他业务。零售业务部门通过携带谢瑞麟（TSL）商标的实体店铺直接销售首饰，同时也参与向其他零售商提供零售管理服务，珠宝产品的批发业务。
+										谢瑞麟珠宝（国际）有限公司成立1971年，经营零售业务、批发业务等。零售业务部门通过携带谢瑞麟（TSL）商标的实体店铺直接销售首饰，同时也参与向其他零售商提供零售管理服务，珠宝产品的批发业务。
 									</p>
 								</div>
 							</div><!-- End /  -->
@@ -491,7 +489,7 @@
 
 							<!--  -->
 							<div class='index__item'>
-								<div class="post__media customer_img"><a href="#"><img src="assets/img/blog/oppo.jpeg"
+								<div class="post__media customer_img"><a href="#"><img src="../assets/img/blog/glz.png"
 											alt="" /></a></div>
 								<div class="post__body">
 									<h2 class="post__title customer_title"><a href="#">格兰仕电商平台</a></h2>
@@ -508,7 +506,7 @@
 
 							<!--  -->
 							<div class='index__item'>
-								<div class="post__media customer_img"><a href="#"><img src="assets/img/blog/zx.jpg"
+								<div class="post__media customer_img"><a href="#"><img src="../assets/img/blog/zx.png"
 											alt="" /></a></div>
 								<div class="post__body">
 									<h2 class="post__title"><a href="#">中兴RCS咨询与迁移</a></h2>
@@ -527,59 +525,9 @@
 			</section>
 			<!-- End / Section -->
 
-			<!-- Section -->
-			<section class="md-section bg-gray" id="id-6">
-				<div class="container" data-aos="slide-up">
-					<div class="row">
-						<!-- title -->
-						<div class="title">
-							<h2 class="title__title">新闻资讯</h2>
-						</div><!-- End / title -->
-
-						<div class="mb-40">
-							<ul>
-
-								<li class="news"><a href="#">博思风云、阿里云合办“2017工业大数据及云计算创新峰会”顺利召开</a><span>&nbsp;[
-										2017-04-14 ]</span></li>
-
-								<li class="news"><a href="#">云上那些事安全篇——AWS如何防御DDOS攻击</a><span>&nbsp;[ 2016-11-01
-										]</span></li>
-
-								<li class="news"><a href="#">博思云为协助理才网布局海外市场</a><span>&nbsp;[ 2016-10-20 ]</span></li>
-
-								<li class="news"><a href="#">分享上云那些事情——安全篇</a><span>&nbsp;[ 2016-10-10 ]</span></li>
-
-								<li class="news"><a href="#">跟博思云为一起探究腾讯云端峰会都讲了啥</a><span>&nbsp;[ 2016-09-29 ]</span>
-								</li>
-
-								<li class="news"><a href="#">云服务，我们是认真的</a><span>&nbsp;[ 2016-09-20 ]</span></li>
-
-								<li class="news"><a href="#">大型企业为什么要迁移到云？</a><span>&nbsp;[ 2016-05-19 ]</span></li>
-
-								<li class="news"><a href="#">Spotify服务器迁移至谷歌云平台抛弃AWS</a><span>&nbsp;[ 2016-05-19
-										]</span></li>
-
-								<li class="news"><a href="#">Gartner：企业将应用程序迁移到云上的五大方式</a><span>&nbsp;[ 2016-05-19
-										]</span></li>
-
-								<li class="news"><a href="#">2018年数据中心市场规模将达332亿美元</a><span>&nbsp;[ 2016-05-19 ]</span>
-								</li>
-
-								<li class="news"><a
-										href="#">为传统寿险企业，采用上云服务之前，海康人寿一直使用传统的IOE架构，在线投保业务系统访问量...</a>&nbsp;<span>[
-										2016-05-18 ]</span></li>
-
-								<li class="news"><a href="#">海康人寿总部位于上海，注册资本为21亿元，资产规模超过100亿元。</a><span>&nbsp;[
-										2016-05-18 ]</span></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End / Section -->
 
 			<!-- Section -->
-			<section class="md-section" id="id-7" id='contact'>
+			<section class="md-section" id="id-6" id='contact'>
 				<div class="container" data-aos="slide-up">
 					<div class="row">
 						<div class="col-lg-4 ">
@@ -594,9 +542,14 @@
 								<!-- contact -->
 								<div class="contact">
 									<h3 class="contact__title">address</h3>
-									<div>深圳市南山区桃园路1号西海明珠大厦F座2401-2403室。</div>
+									<div>深圳市南山区软件产业基地1栋C座1402室</div>
 								</div><!-- End / contact -->
 
+								<!-- contact -->
+								<div class="contact">
+									<h3 class="contact__title">前台座机</h3>
+									<div>0755-86250923</div>
+								</div><!-- End / contact -->
 
 								<!-- contact -->
 								<div class="contact">
@@ -604,13 +557,18 @@
 									<div><a href="">yiting.gao@bosicloud.com</a></div>
 								</div><!-- End / contact -->
 
-
 								<!-- contact -->
 								<div class="contact">
 									<h3 class="contact__title">phone</h3>
-									<div>0755-86317103</div>
+									<div>+8615801473668</div>
 								</div><!-- End / contact -->
 
+								<!-- contact -->
+								<div class="contact">
+									<h3 class="contact__title">座机号</h3>
+									<div><a href="">0755-86250923-858</a></div>
+								</div><!-- End / contact -->
+								
 							</div>
 						</div>
 						<div class="col-lg-7 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1 ">
@@ -697,7 +655,7 @@
 
 					</div>
 
-					<p class="footer__copy">Copyright @ 深圳市博思云为科技有限公司 <a href="http://www.beian.miit.gov.cn" style="color:white">粤ICP备16041562号-1</a></p>
+					<p class="footer__copy">Copyright @ 深圳市博思云为科技有限公司 <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" style="color:white">粤ICP备16041562号</a></p>
 
 
 				</div>
@@ -706,21 +664,21 @@
 		<div id="link-to-top"><i class="pe-7s-angle-up"></i></div>
 	</div>
 	<!-- Vendors-->
-	<script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
-	<script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
-	<script type="text/javascript" src="assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
-	<script type="text/javascript" src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
-	<script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
-	<script type="text/javascript" src="assets/vendors/swiper/swiper.jquery.js"></script>
-	<!-- <script type="text/javascript" src="assets/vendors/menu/menu.js"></script> -->
-	<script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
+	<script type="text/javascript" src="../assets/vendors/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+	<script type="text/javascript" src="../assets/vendors/isotope-layout/isotope.pkgd.js"></script>
+	<script type="text/javascript" src="../assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
+	<script type="text/javascript" src="../assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="../assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+	<script type="text/javascript" src="../assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="../assets/vendors/masonry-layout/masonry.pkgd.js"></script>
+	<script type="text/javascript" src="../assets/vendors/swiper/swiper.jquery.js"></script>
+	<!-- <script type="text/javascript" src="../assets/vendors/menu/menu.js"></script> -->
+	<script type="text/javascript" src="../assets/vendors/typed/typed.min.js"></script>
 	<!-- App-->
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<script type="text/javascript" src="assets/js/sub.js"></script>
-	<script src="assets/js/index.js"></script>
+	<script type="text/javascript" src="../assets/js/main.js"></script>
+	<script type="text/javascript" src="../assets/js/sub.js"></script>
+	<script src="../assets/js/index.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 		AOS.init({
@@ -744,6 +702,13 @@
 			anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 		});
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?00b849d1986bf7645f56616fe97d39a5";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
 	</script>
 </body>
 
