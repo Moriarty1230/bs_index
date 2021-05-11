@@ -311,27 +311,45 @@
 .flex-layout div {
 	flex: 1;
 }
-.link-hover{
-    font-size: 14px;
+.link-hover {
+	font-size: 14px;
 }
-.link-hover a{
+.link-hover a {
 	color: #007eb9;
 }
-.link-hover a:hover{
-    color: #e47911;
-    text-decoration: underline;
+.link-hover a:hover {
+	color: #e47911;
+	text-decoration: underline;
 }
-.flex-layout-column{
-    display: flex;
-    flex-direction: column;
+.flex-layout-column {
+	display: flex;
+	flex-direction: column;
 }
-.csection p{
-    color: #333;
-    font-size:14px;
+.csection p {
+	color: #333;
+	font-size: 14px;
 }
-.csection h6{
-    color:#232f3e;
-    font-weight: 700;
-    font-size:25px;
-    margin-top: 45px;
+.csection h6 {
+	color: #232f3e;
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 45px;
+}
+.privacy {
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	margin: 60px 0;
+	padding: 15px 15px 0 15px;
+}
+.privacy a {
+	background-color: #ffad1f;
+	padding: 5px 15px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.privacy p:nth-child(3) {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }

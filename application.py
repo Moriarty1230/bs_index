@@ -110,7 +110,9 @@ def gmjs():
 @application.route('/meross.html')
 def meross():
     return render_template('meross.html')
-
+@application.route('/privacy.html')
+def privacy():
+    return render_template('privacy.html')
 if __name__ == "__main__":
     application.debug = True
     application.run()

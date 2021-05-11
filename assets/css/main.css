@@ -2683,7 +2683,13 @@ ul {
     /*border-radius: 10px;*/
     width: 65%;
 }
-
+.contxt .font-size{
+    margin-top: 18px;
+    font-weight: bold;
+}
+.contxt  p{
+    margin-bottom: 0;
+}
 
 /**
 button
